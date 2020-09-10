@@ -1,0 +1,24 @@
+.efects1 {
+    position: realative;
+
+}
+
+.text h2 {
+    color: black;
+    position: absolute;
+    left: 45%;
+    top: 35%;
+    bottom: 50%;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes example {
+  0%   {color:red; left:30%; top:20%;}
+  25%  {color:yellow; left:60%; top:20%;}
+  50%  {color:blue; left:60%; top:50%;}
+  75%  {color:green; left:30%; top:50%;}
+  100% {color:red; left:30%; top:20%;}
+}
